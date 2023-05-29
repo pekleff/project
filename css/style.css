@@ -1,0 +1,770 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.page {
+    max-width: 1920px;
+    margin: auto;
+    height: 1080px;
+}
+
+.section_one {
+    width: 1920px;
+    height: 923px;
+    background: #EBF3FD;
+
+}
+
+.logo {
+    width: 113px;
+    height: 30px;
+    margin-top: 34px;
+    margin-left: 370px;
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.loaded .logo {
+    transition: ease 0.5s, transforms 3s ease 0.5s;
+    transform: translatex(0);
+    opacity: 1;
+}
+
+.burger {
+    display: none;
+}
+
+.li1 {
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18181B;
+    margin-left: 59px;
+    cursor: pointer;
+
+}
+
+.menu {
+    margin-top: 34px;
+    margin-right: 367px;
+    transform: translateX(100px);
+}
+
+.loaded .menu {
+    transition: ease 0.5s, transforms 3s ease 0.5s;
+    transform: translatex(0);
+    opacity: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    transition: translateY(10px);
+}
+
+.text1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+    color: #18181B;
+    width: 532px;
+    height: 132px;
+}
+
+
+.text2 {
+    width: 463px;
+    height: 203px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #18181B;
+    margin-top: 100px;
+    width: 340px;
+    height: 203px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-top: 100px;
+    transform: translateY(100px);
+}
+
+.loaded .main {
+    transition: ease 1s, transforms 100s ease 0.5s;
+    transform: translatey(0);
+    opacity: 1;
+}
+
+.text2 {
+    
+
+}
+
+.li2 {
+
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #18181B;
+}
+
+.text_b {
+    margin-top: 68.5px;
+}
+
+.main_b {
+    width: 232px;
+    height: 55px;
+    background: #2563EB;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.text_all {
+    margin-left: 70px;
+    padding: 48px;
+
+}
+
+.main_img {
+    margin-right: 348px;
+
+}
+
+.section_two {
+    height: auto;
+}
+
+.h_2 {
+    margin-top: 119px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #18181B;
+
+}
+
+.ht_2 {
+    text-align: center;
+    margin: 0;
+}
+
+.teacher {
+    margin-top: 75px;
+    margin-bottom: 20px;
+    flex-grow: 0;
+    margin-left: 40px;
+}
+
+.teacher_1 {
+    width: 368px;
+    height: 405px;
+    background: #EBF3FD;
+    border-radius: 30px;
+    width: 368px;
+}
+
+.teacher_11 {
+    padding-top: 28px;
+    margin-left: 26px;
+}
+
+.teacher_h {
+    width: auto;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #18181B;
+}
+
+.teacher_t {
+    width: 299px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18181B;
+    margin-top: 12px;
+    margin-left: 26px;
+}
+
+.img_logo_t {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 275px;
+}
+
+
+.teacher_first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-evenly;
+}
+
+.teacher_second {
+    margin-top: 460px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-evenly;
+}
+
+
+.section_tree {
+    display:flex;
+    margin-top: 55px;
+    width: 1920px;
+    align-items: center;
+  
+    
+}
+
+.zapis {
+    
+    width: 1190px;
+    height: 450px;
+    background: #E2E8F0;
+    border-radius: 40px;
+    margin-top: 55px;
+    margin-left: 300px;
+    
+    
+}
+
+.z_h {
+    width: 319px;
+    height: 66px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+    color: #18181B;
+
+}
+
+.z_t {
+    width: 388px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #18181B;
+    margin-top: 18px;
+
+}
+
+.z_text {
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 139px;
+}
+
+.z_img {
+    margin-top: 54px;
+    margin-left: 496px;
+}
+
+
+.name_zf {
+    margin-left: 681px;
+    width: 355px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #D8DAE5;
+    border-radius: 10px;
+
+}
+
+.e_forms {
+    margin-top: 16px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+}
+
+.c_forms {
+    margin-top: 16px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+}
+
+.forma {
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #696F8C;
+    margin-top: 13.5px;
+    margin-left: 27px;
+}
+
+.emails {
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #696F8C;
+    margin-top: 13.5px;
+    margin-left: 27px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.border_z {
+    position: absolute;
+    width: 355px;
+    height: 55px;
+    background: #2563EB;
+    border-radius: 10px;
+    margin-top: 17px;
+    margin-left: 681px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.border_f {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 10px;
+    color: #FFFFFF;
+
+}
+
+
+.img_footer {
+    margin-top: 46px;
+    margin-bottom: 37px;
+}
+
+.images_f {
+    
+}
+
+.forma {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.year_t {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #18181B;
+    
+}
+
+.year {
+    margin-top: -64px;
+    margin-bottom: 34px;
+    margin-left: 990px;
+}
+
+.footer {
+    max-width: 1920px;
+    margin-left: 300px;
+}
+
+.link {
+    text-decoration: none;
+    color: #18181B;
+}
+
+@media screen and (max-width: 1366px) {
+    .main {
+        padding-left: 1px;
+
+    }
+
+    .logo {
+        margin-left: 100px;
+    }
+
+    .menu {
+        margin-right: 700px;
+    }
+
+    .section_tree {
+        margin-top: 0px;
+        margin-left: -20    5px;
+    }
+
+    .img_footer {
+        margin-left: -220px;
+    }
+    .footer {
+        margin-left: 350px;
+    }
+    .year {
+        margin-left: 700px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text_all {
+        max-width: 200px;
+        margin-left: -10px;
+    }
+
+    .menu {
+        margin-right: 900px;
+    }
+
+    .main_images {
+        max-width: 40%;
+        max-height: 10%;
+        margin-left: 300px;
+
+    }
+
+    .section_two {
+        margin-left: 100px;
+    }
+
+    .teacher_second {
+        margin-left: 100px;
+    }
+
+    .teacher_1 {
+        width: 268px;
+        height: 305px;
+    }
+
+    .img_t {
+        width: 94px;
+        height: 95px;
+    }
+
+    .img_logo_t {
+        margin-left: 175px;
+    }
+
+    .teacher_t {
+        font-size: 15px;
+        max-width: 200px;
+    }
+
+    .zapis {
+        width: 830px;
+        height: 350px;
+
+    }
+
+    .z_h {
+        font-size: 48px;
+    }
+
+    .z_t {
+        font-size: 18px;
+    }
+
+    .z_text {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .section_tree {
+        margin-left: -140px;
+        margin-top: 0px;
+    }
+
+    .footer {
+        margin-left: 385px
+    }
+    
+    .z_forms {
+        position: absolute;
+        margin-top: 40px;
+    }
+    .e_forms {
+        position: absolute;
+        margin-top: 120px;
+    }
+    .c_forms {
+        position: absolute;
+        margin-top: 200px;
+    }
+    .name_zf {
+        margin-left: 500px;
+        height: 55px;
+        max-width: 35%;
+        
+    }
+    .z_img {
+        display: none;
+    }
+    .border_z {
+        margin-top: 270px;
+        margin-left: 500px;
+        max-width: 30%;
+    }
+
+    .year_t {
+        margin-left: -355px;
+    }
+
+    .main {
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .section_one {
+        height: 700px;
+    }
+    .header {
+        margin-left: -50px;
+    }
+    .menu {
+        margin-right: 1200px;
+    }
+    .text1 {
+        font-size: 40px;
+        width: 350px;
+
+    }
+    .text_all {
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .main_img {
+        margin-left: -200px;
+    }
+    .h_2 {
+        margin-top: 100px;
+    }
+    .teacher_first {
+        margin-top: 0px;
+        margin-left: -90px;
+    }
+
+
+    .teacher_second {
+        margin-top: 130px;
+        margin-left: 10px;
+    }
+
+    .teacher_1 {
+        width: 100%;
+        height: 70%;
+    
+    }
+
+    .teacher_11 {
+       
+       padding-top: 10px;
+       margin-left: 10px;
+    }
+
+    .img_logo_t {
+        display: none;
+    }
+    .teacher_h {
+        font-size: 20px;
+        margin-left: 10px;
+        width: 50px;
+    }
+
+    .teacher_t {
+        margin-left: 10px;
+        font-size: 15px;
+        
+        height: 200px;
+    }
+
+
+
+    .section_tree {
+        margin-left: -346px;
+        margin-top: -100px;
+    }
+    .z_forms {
+        margin-left: -90px;
+    }
+    .e_forms {
+        margin-left: -90px;
+    }
+
+    .c_forms {
+        margin-left: -90px;
+    }
+    .border_z {
+        margin-left: 430px;
+    }
+
+    .z_text {
+        margin-left: 20px;
+    }
+
+    .zapis {
+        width: 748px;
+        margin-left: 350px;
+    }
+
+    .img_footer {
+        margin-left: -350px;
+    }
+
+    .year {
+        margin-left: 500px;
+    }
+
+    
+
+ 
+
+    
+}
+
+@media screen and (max-width: 468px) { 
+    .main_img {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: inline;
+        margin-top: 30px;
+        margin-right: 1510px;
+        cursor: pointer;
+    }
+
+    .h_2 {
+        margin-left: -90px;
+    }
+
+    .teacher_first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+       
+    }
+
+    .teacher_second {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        margin-top: 500px;
+    }
+
+    .teacher_1 {
+        margin-top: -50px;
+        height: 275px;
+    }
+
+    .zapis {
+        margin-top: 140px;
+        width: 440px;
+        height: 500px;
+        background: #E2E8F0;
+        border-radius: 40px;
+        margin-left: 360px;
+    }
+
+    .z_forms {
+        margin-top: 190px;
+        margin-left: -480px;
+    }
+
+    .e_forms {
+        margin-top: 260px;
+        margin-left: -480px;
+    }
+
+    .c_forms {
+        margin-top: 330px;
+        margin-left: -480px;
+    }
+
+    .border_z {
+        margin-top: 400px;
+        margin-left: 25px;
+       
+    }
+
+    .img_footer {
+        margin-left: -350px;
+    }
+
+    .year {
+        margin-left: 200px;
+    }
+
+ 
+
+
+
+
+}
